@@ -1,0 +1,2 @@
+# VSD-RTLDesign_and_Synthesis
+This repository documents learnings and lab work from the “RTL Design using Verilog with Sky130 Technology” workshop offered by VLSI System Design (VSD), focused on building an end‑to‑end open‑source RTL design and synthesis flow using the SkyWater SKY130 process node. The program emphasizes writing clean, synthesis‑friendly Verilog, validating designs through simulation, and mapping them to standard cells using open‑source tools.
