@@ -1,6 +1,6 @@
 # Introduction to iVerilog and Gtkwave
 
-Initially we install iverilog and gtkwave using the commands :
+Initially, we install iverilog and gtkwave using the commands :
 
     sudo apt install iverilog
     sudo apt install gtkwave
@@ -10,11 +10,13 @@ The compilation and simulation are performed using the commands:
     ./a.out
 
 Executing _a.out_ file basically dumps the .vcd file 
+
 <img width="959" height="452" alt="day1_terminal1" src="https://github.com/user-attachments/assets/7c9743b0-8ac8-43e4-9970-6cd61b4b77bb" />
 
 The iverilog design code and testbench for good_mux is retreived in vim editor using command
 
     gvim tb_good_mux.v -o good_mux.v 
+
 <img width="383" height="481" alt="day1_design_and_tb" src="https://github.com/user-attachments/assets/6ec5e8f6-6444-4aa1-ac64-919268f5e1d3" />
 
 Following the developement and compilation of the design spec, gtkwave is used to view the design testbench with the command as
@@ -81,6 +83,7 @@ To read the library the command used after invoking yosys is (as shown in the fi
 To read the Verilog file in yosys
 
     read_verilog good_mux.v
+
 <img width="602" height="481" alt="image" src="https://github.com/user-attachments/assets/71552b57-f9c5-4382-a3f2-1ced6dc8aee3" />
 
 In case the design is spanning more than 1 file, all the files need to be read in this manner.
@@ -97,4 +100,10 @@ To perform synthesis of the top module, the command given in yosys is
 To generate the netlist for the above top module(good_mux), the command is
 
     abc -liberty #library path#
+
+The _abc_ command converts rtl file into digital logic design.
 <img width="959" height="488" alt="image" src="https://github.com/user-attachments/assets/dfce0c06-b7fe-4fb9-b733-546f31db75b9" />
+
+We use the _show_ command to display a graphical version or an image of the realized design as shown below
+
+<img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/0fcdd70d-177c-420a-9a7c-85e6b6a36b3c" />
