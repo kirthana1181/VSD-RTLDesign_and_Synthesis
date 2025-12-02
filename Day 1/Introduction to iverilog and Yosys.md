@@ -107,3 +107,18 @@ The _abc_ command converts rtl file into digital logic design.
 We use the _show_ command to display a graphical version or an image of the realized design as shown below
 
 <img width="959" height="500" alt="image" src="https://github.com/user-attachments/assets/0fcdd70d-177c-420a-9a7c-85e6b6a36b3c" />
+
+
+# Writing Netlist
+
+To add a netlist to the existing verilog design file, we create a netlist file named: _good_mux_netlist.v_ as
+
+        write_verilog good_mux_netlist.v
+The corresponding netlist file is opened in the Vim editor with command in yosys:
+
+        !gvim good_mux_netlist.v
+We remove the unnecessary information and retain the refined code using the within the write command with resulting image shown below
+
+        write_verilog -noattr good_mux_netlist.v
+
+<img width="907" height="502" alt="image" src="https://github.com/user-attachments/assets/1d5bbaa5-d8ef-494a-8426-1e4365f557ec" />
