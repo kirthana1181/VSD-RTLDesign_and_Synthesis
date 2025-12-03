@@ -45,12 +45,18 @@ Synthesis of the sub-module is performed first by reading the library and top mo
   1. If multiple instances of the same module are preferred (or)
   2. The Divide and Conquer Approach is to be applied, in case the design is massive.
 
-After Synthesis
+**After Synthesis**
 
 <img width="1920" height="1080" alt="day2_showsub1" src="https://github.com/user-attachments/assets/9646ffce-c0ef-4469-8861-f2b8f1f1183f" />
 
+# Flop Coding style
 
-Summary
+- Propagation delay (pd): the amount of time taken for the output to be visible after the input data is fed.
+- Glitch: An unintended change in output data that follows _pd_.
+- This style is prominently used because, in a FF, the output data is governed by the presence of a clock pulse, and thus shields the output from **_glitch_**
+- If a FF is not initialized, then it produces a garbage value. For this purpose, there are 2 kinds of buttons: RESET and SET, which initialize all the input and output values.
+
+# Summary
 - There is always a typical variation parameter value for each IC, denoted as **_tt<temp-value>C_voltage**
 - This is because a Stacked CMOS generates higher logical effort, as compared to a simpler or Flat CMOS
 - Higher logical effort causes an increase in area and limits design while leading to a tradeoff with performance.
