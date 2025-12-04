@@ -56,8 +56,41 @@ Synthesis of the sub-module is performed first by reading the library and top mo
 - This style is prominently used because, in a FF, the output data is governed by the presence of a clock pulse, and thus shields the output from **_glitch_**
 - If a FF is not initialized, then it produces a garbage value. For this purpose, there are 2 kinds of buttons: RESET and SET, which initialize all the input and output values.
 
+### Compile
+
+    iverilog dff_asyncres.v tb_dff_asyncres.v
+### Run
+    ./a.out
+### Simulate waveform
+    gtkwave tb_dff_asyncres.vcd
+  <img width="1920" height="1017" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/6f619659-d5bb-42c8-ae64-d04e2b028c76" />
+
+## Comparing the Asynchronous Reset VS Synchronous Reset 
+   <img width="1920" height="1000" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/3a5261f5-ce8e-4ae9-a058-fe822629c5a1" />
+
+   <img width="1920" height="996" alt="Screenshot (79)" src="https://github.com/user-attachments/assets/6aec619d-ff7e-472c-aba3-0adb224fd243" />
+
+## Synthesizing in Yosys
+
+### Reading library
+    read_liberty -lib <sky130pdkLibrary_filepath>
+### Reading Design File
+    read_verilog dff_asyncres.v
+### Running Synthesis over the top module
+    synth -top dff_asyncres
+### Mapping FFs to your sky130 library
+    dffmap -liberty <sky130pdkLibrary_filepath>
+### Technology Mapping
+    abc -liberty <sky130pdkLibrary_filepath>
+### View graphically the Gate-level Netlist
+    show
+### Resulting Netlist for Asynchronous Reset VS Synchronous Reset 
+  <img width="959" height="505" alt="image" src="https://github.com/user-attachments/assets/c01e9759-0dfd-4a76-aaee-28e0208cf46e" />
+  <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/b3c26a08-0f9d-469f-a3f7-70cbe79c55d3" />
+
+
 # Summary
 - There is always a typical variation parameter value for each IC, denoted as **_tt<temp-value>C_voltage**
 - This is because a Stacked CMOS generates higher logical effort, as compared to a simpler or Flat CMOS
 - Higher logical effort causes an increase in area and limits design while leading to a tradeoff with performance.
-- 
+- Multiplication with a integer or a whole number, does not take up cells or doesn't require any hardware. There are such special cases of optimizations in RTL Design, because a part of the input is mapped as it is onto the designated bits of the output value.
