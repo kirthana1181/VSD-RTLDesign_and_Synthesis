@@ -7,52 +7,43 @@ The workshop provides comprehensive hands-on training in RTL design, simulation,
 
 ## Workshop Contents
 
-### 📁 Day 1: Introduction to Verilog RTL Design and Synthesis
+### 📁 [Day 1: Introduction to Verilog RTL Design and Synthesis](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day%201)
 - Introduction to open-source simulator iVerilog
 - Introduction to GTKWave
 - Introduction to Yosys and Logic Synthesis
 - Labs on Verilog RTL design and synthesis
 
-**Lab Work:** [Day 1 Labs](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day%201)
 
 ---
 
-### 📁 Day 2: Timing Libs, Hierarchical vs Flat Synthesis and Efficient Flop Coding Styles
+### 📁 [Day 2: Timing Libs, Hierarchical vs Flat Synthesis and Efficient Flop Coding Styles](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day2)
 - Introduction to timing libraries (.lib)
 - Hierarchical vs Flat synthesis
 - Various flop coding styles and optimization
 - Labs on timing libs, synthesis, and flop implementations
 
-**Lab Work:** [Day 2 Labs](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day2)
-
 ---
 
-### 📁 Day 3: Combinational and Sequential Optimizations
+### 📁 [Day 3: Combinational and Sequential Optimizations](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day3)
 - Introduction to logic optimizations
 - Combinational logic optimizations
 - Sequential logic optimizations
 - Labs on combinational and sequential optimizations
 
-**Lab Work:** [Day 3 Labs](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day3)
-
 ---
 
-### 📁 Day 4: GLS, Blocking vs Non-blocking and Synthesis-Simulation Mismatch
+### 📁 [Day 4: GLS, Blocking vs Non-blocking and Synthesis-Simulation Mismatch](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day5)
 - Gate Level Simulation (GLS)
 - Synthesis-Simulation mismatch
 - Blocking vs Non-blocking statements
 - Labs on GLS and synthesis-simulation mismatch
 
-**Lab Work:** [Day 4 Labs](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day4)
-
 ---
 
-### 📁 Day 5: Design for Testability (DFT) and Introduction to Logic Synthesis
+### 📁 [Day 5: Design for Testability (DFT) and Introduction to Logic Synthesis](https://github.com/kirthana1181/VSD-RTLDesign_and_Synthesis/tree/main/Day5)
 - If, case, for loop and for generate
-- Optimization techniques
+- Optimisation techniques
 - Labs on if, case statements, and looping constructs
-
-**Lab Work:** [Day 5 Labs](./day5/)
 
 ---
 
