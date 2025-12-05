@@ -70,6 +70,72 @@ Code
 
 <img width="959" height="506" alt="image" src="https://github.com/user-attachments/assets/0e2c6519-0b17-49df-bbcc-976912f74f65" />
 
+## LAB 5
 
+Code:
+```verilog
+		module dff_const1(input clk, input reset, output reg q);
+			always @(posedge clk, posedge reset)
+			begin
+			if(reset)
+			q <= 1'b0;
+			else
+			q <= 1'b1;
+			end
+		endmodule
+
+```
+
+### Output
+<img width="959" height="487" alt="image" src="https://github.com/user-attachments/assets/ce187a1d-50f5-4c12-a54e-5f0cd59babb9" />
+
+
+## LAB 6
+An Example of constant propagation
+Code:
+
+```verilog
+
+		module dff_const2(input clk, input reset, output reg q);
+			always @(posedge clk, posedge reset)
+			begin
+			if(reset)
+			q <= 1'b1;
+			else
+			q <= 1'b1;
+			end
+		endmodule
+```
+
+
+### Output
+
+<img width="1917" height="974" alt="Screenshot 2025-12-05 131208" src="https://github.com/user-attachments/assets/256fc7a1-8acc-4ce6-8755-d80caab49ac6" />
+
+## LAB 7
+
+```verilog
+module dff_const3(input clk, input reset, output reg q);
+reg q1;
+
+always @(posedge clk, posedge reset)
+begin
+    if(reset)
+    begin
+        q <= 1'b1;
+        q1 <= 1'b0;
+    end
+    else
+    begin
+        q1 <= 1'b1;
+        q <= q1;
+    end
+end
+
+endmodule
+```
+
+### Output
+<img width="959" height="504" alt="image" src="https://github.com/user-attachments/assets/2af70dab-b536-42fd-b175-fccb18591f4d" />
 
 
