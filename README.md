@@ -63,37 +63,14 @@ The workshop provides comprehensive hands-on training in RTL design, simulation,
 - **Yosys**: Open-source synthesis tool
 - **SKY130 PDK**: Open-source 130nm process design kit by SkyWater Technology
 
-## Repository Structure
-
-```
-.
-├── README.md
-├── day1/
-│   ├── READEME.md
-├── day2/
-│   ├── READEME.md
-│   └── screenshots/
-├── day3/
-│   ├── labs/
-│   ├── notes.md
-│   └── screenshots/
-├── day4/
-│   ├── READEME.md
-│   └── screenshots/
-└── day5/
-    ├── labs/
-    ├── READEME.md
-    └── screenshots/
-```
-
 ## Key Learnings
 
-- ✅ Understanding RTL design flow
-- ✅ Verilog coding styles and best practices
-- ✅ Synthesis using Yosys with SKY130 PDK
-- ✅ Timing analysis and optimization techniques
-- ✅ Gate Level Simulation and verification
-- ✅ Identifying and resolving synthesis-simulation mismatches
+- Understanding RTL design flow
+- Verilog coding styles and best practices
+- Synthesis using Yosys with SKY130 PDK
+- Timing analysis and optimization techniques
+- Gate Level Simulation and verification
+- Identifying and resolving synthesis-simulation mismatches
 
 ## Author
 
