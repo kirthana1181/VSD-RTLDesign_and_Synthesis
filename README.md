@@ -78,10 +78,8 @@ Special thanks to **VSD (VLSI System Design)** for organizing this comprehensive
 - [Yosys Documentation](https://yosyshq.net/yosys/)
 - [iVerilog Documentation](http://iverilog.icarus.com/)
 
+---
 ## License
 
 This repository is for educational purposes. Please refer to individual tool licenses for usage terms.
 
----
-
-⭐ If you found this repository helpful, please consider giving it a star!
