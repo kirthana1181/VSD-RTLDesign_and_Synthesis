@@ -158,7 +158,7 @@ Example Code:
      end
    endmodule
 ```
-## LAB 4: Mux generator
+## LAB 4: Mux generator using For Loop
 Code:
 
 ```verilog
@@ -179,7 +179,7 @@ endmodule
 
 <img width="959" height="392" alt="image" src="https://github.com/user-attachments/assets/af2a694e-1e07-4378-8652-c1971ce2561e" />
 
-## LAB 5: Demux generator
+## LAB 5: Demux generator using For Loop
 
 Code:
 
@@ -204,7 +204,7 @@ endmodule
 #### Synthesis Result
 <img width="436" height="412" alt="image" src="https://github.com/user-attachments/assets/f2f9d856-7347-48b9-afab-f958d39ae41c" />
 
-## LAB 7: Ripple-Carry Adder
+## LAB 7: Ripple-Carry Adder using Generate Block
 
 Code:
 
