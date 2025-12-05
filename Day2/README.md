@@ -30,7 +30,8 @@ The flattened synthesis is synthesized from hierarchical synthesis, after synthe
 
 <img width="1920" height="1080" alt="day2_after-flatten" src="https://github.com/user-attachments/assets/c9dc8cfa-2159-45c4-a574-c56127a04b9e" />
 
-where _multiple_modules_hier.v_ represents the hierarchical _multiple_modules_ file
+
+**where _multiple_modules_hier.v_ represents the hierarchical _multiple_modules_ file**
 
 ## Sub-module Level Synthesis
 <img width="1920" height="1080" alt="day2_aftersub1-synth" src="https://github.com/user-attachments/assets/19bff67e-b96f-4af1-9b62-54bff79c317a" />
