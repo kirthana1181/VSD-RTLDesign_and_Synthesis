@@ -65,8 +65,7 @@ The workshop provides comprehensive hands-on training in RTL design, simulation,
 
 ## Author
 
-**KIRTHANA**
-- GitHub: [Kirthana P Rao](https://github.com/kirthana1181)
+[**Kirthana Rao**](https://github.com/kirthana1181)
 
 ## Acknowledgments
 
